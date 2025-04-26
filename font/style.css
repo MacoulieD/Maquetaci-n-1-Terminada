@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: fuente1;
+    src: url(vendya.otf);
+}
+
+html{
+    font-family: fuente1;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin-left: 3.124rem;
+    margin-right: 3.124rem;
+    background-image: url(descarga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-attachment: fixed;
+}
+nav .cajas{
+    background-color: rgba(99, 44, 170, 0.356);
+    min-height: 15vh;
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+nav .cajas .box{
+    background-color: rgba(0, 255, 255, 0.274);
+    flex: 18%;
+}
+
+header .header{
+    display: flex;
+    min-height: 35vh;
+    gap: 20px;
+}
+
+header .header .baner{
+    background-color: rgba(127, 255, 212, 0.418);
+    flex: 70%;
+}
+header .header .tres{
+    background-color: rgba(127, 255, 212, 0.418);
+    flex: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+header .header .tres .logo{
+    background-color: rgba(102, 202, 181, 0.781);
+}
+
+header .header .tres .login{
+    background-color: rgba(71, 17, 196, 0.781);
+}
+
+header .header .tres .form{
+    background-color: rgba(202, 102, 135, 0.781);
+}
+.main{
+    display: flex;
+    background-color: rgba(223, 211, 214, 0.342);
+    gap: 20px;
+    min-height: 70vh;
+    padding: 20px 0;
+}
+
+.main .left{
+    flex: 20%;
+    background-color: rgba(77, 19, 194, 0.342);
+}
+
+.main .mitad{
+    flex: 50%;
+    background-color: rgba(19, 51, 194, 0.342);
+}
+
+.main .right{
+    flex: 30%;
+    background-color: rgba(19, 194, 48, 0.342);
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.308);
+    min-height: 15vh;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .redes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+footer .redes .img{
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 3px white;
+    padding-top: 20px;
+}
+
